@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
         marginTop: '40px',
     },
     cardGrid: {
-        padding: '20px 0',
+        padding: '20px',
     },
     card: {
         height: '100%',
@@ -25,7 +25,10 @@ const useStyles = makeStyles((theme) => ({
     cardContent: {
         flexGrow: 1,
     },
-    
+    footer: {
+        backgroundColor: theme.palette.background.paper,
+        padding: '50px 0',
+    }
 
 }));
 
