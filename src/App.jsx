@@ -71,7 +71,16 @@ const App = () => {
           </Grid>
         </Container>
       </main>
-      
+      <footer className={classes.footer}>
+        <Typography variant='h6' align='center' gutterBottom>
+          Footer
+        </Typography>
+        <Typography variant='subtitle1' align='center' color='textSecondary'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </Typography>
+        <Typography></Typography>
+      </footer>
+    </>
   )
 }
 
